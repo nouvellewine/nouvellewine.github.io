@@ -1,2 +1,2 @@
 # nouvellewine.github.io
-Nouvelle Wine
+A website for Nouvelle Wine, coming soon.
