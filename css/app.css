@@ -1,0 +1,39 @@
+html, body {
+    background: #e3e8ed;
+    color: #175a6c;
+    font-family: "nudista-web";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #175a6c;
+    font-family: "didoni-urw",serif;
+}
+
+.callout {
+    background: #175a6c;
+    color: #fff;
+}
+
+.callout h4 {
+    color: #fff;
+}
+
+.content {
+    width: 90%;
+    max-width: 640px;
+    margin: 0 auto 2px;
+    padding: 40px 0;
+    border-bottom: 1px solid #175a6c;
+}
+
+.footer {
+    width: 90%;
+    max-width: 640px;
+    border-top: 1px solid #175a6c;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-family: "nudista-web";
+    font-weight: bold;
+}
