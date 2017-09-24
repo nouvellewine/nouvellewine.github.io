@@ -1,11 +1,10 @@
 html, body {
-    background: #e3e8ed;
-    color: #175a6c;
+    background: #fff;
+    color: #000;
     font-family: "nudista-web";
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #175a6c;
     font-family: "mrs-eaves-xl-serif",serif;
     font-weight: normal;
     line-height: 1;
@@ -13,26 +12,51 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .callout {
-    background: #175a6c;
-    color: #fff;
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
 }
 
 .callout h4 {
-    color: #fff;
+    /*color: #fff;*/
+    font-family: "nudista-web";
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #999;
 }
 
 .content {
     width: 90%;
     max-width: 640px;
     margin: 0 auto 2px;
-    padding: 40px 0;
-    border-bottom: 1px solid #175a6c;
+    padding: 0 0 40px 0;
+    text-align: center;
+}
+
+.content h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: block;
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 6px;
 }
 
 .footer {
     width: 90%;
     max-width: 640px;
-    border-top: 1px solid #175a6c;
     padding: 40px 0;
 }
 
