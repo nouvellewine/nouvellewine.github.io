@@ -46,7 +46,7 @@ a:hover {
 
 .menu {
     display: block;
-    list-style: none;
+    list-style: none; 
 }
 
 .menu li {
