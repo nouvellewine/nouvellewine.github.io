@@ -18,9 +18,18 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0;
 }
 
-.callout h4 {
+h4 {
     /*color: #fff;*/
     font-family: "nudista-web";
+    margin-bottom: 0;
+}
+
+.content h4 {
+  font-size: 18px;
+}
+
+hr {
+  margin: 3rem auto;
 }
 
 a {
@@ -46,7 +55,7 @@ a:hover {
 
 .menu {
     display: block;
-    list-style: none; 
+    list-style: none;
 }
 
 .menu li {
